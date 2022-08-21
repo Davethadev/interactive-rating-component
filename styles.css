@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%);
+}
+
+.card {
+    background-color: hsl(213, 19%, 18%);
+    color: #fff;
+    margin: 12.5% auto;
+    width: 20rem;
+    height: 21rem;
+    padding: 1.25rem;
+    border-radius: 15px;
+}
+
+.thank-you-state-card {
+    display: none;
+    background-color: hsl(213, 19%, 18%);
+    color: #fff;
+    margin: 12.5% auto;
+    width: 20rem;
+    height: 21rem;
+    padding: 1.25rem;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.thank-you-state-card .selection {
+    width: 60%;
+    margin: 1.3rem auto;
+    background-color: hsl(216, 12%, 25%);
+    padding: 0.5rem;
+    border-radius: 25px;
+    color: hsl(25, 97%, 53%);
+}
+
+.thank-you-state-card .thank-you-msg {
+    color: hsl(216, 12%, 54%);
+    margin: 1rem 0 1.5rem;
+    font-weight: 400;
+}
+
+.card img {
+    background-color: hsl(216, 12%, 25%);
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.card h2 {
+    font-weight: 700;
+    padding: 1.5rem 0;
+}
+
+.thank-you-state-card h2 {
+    font-weight: 700;
+}
+
+.card p {
+    font-weight: 400;
+    color: hsl(216, 12%, 54%);
+}
+
+.card .ratings {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.5rem 0;
+}
+
+.card .ratings button {
+    background-color: hsl(216, 12%, 25%);
+    color: hsl(217, 12%, 63%);
+    width: 2.5rem;
+    border-radius: 50%;
+    padding: 0.75rem;
+    text-align: center;
+    border: none;
+}
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 1rem 4rem;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 25px;
+}
+
+.card .ratings button:hover,
+.card .ratings button:active {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+@media(max-width: 760px) {
+    .card,
+    .thank-you-state-card {
+        margin: 50% auto;
+    }
+
+    .card .ratings button:active,
+    .card .ratings button:hover {
+        background-color: hsl(217, 12%, 63%);
+    }
+}
+
