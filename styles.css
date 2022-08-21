@@ -113,5 +113,9 @@ button:hover {
     .card .ratings button:hover {
         background-color: hsl(217, 12%, 63%);
     }
+
+    .thank-you-state-card .selection {
+        width: 65%;
+    }
 }
 
