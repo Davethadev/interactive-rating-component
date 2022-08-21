@@ -106,7 +106,7 @@ button:hover {
 @media(max-width: 760px) {
     .card,
     .thank-you-state-card {
-        margin: 50% auto;
+        width: 75vw;
     }
 
     .card .ratings button:active,
